@@ -14,10 +14,12 @@
     └── plugin
         ├── reader
         │   ├── mysqlreader
-        │   └── txtfilereader
+        │   ├── txtfilereader
+        │   └── oraclereader
         └── writer
             ├── mysqlwriter
-            └── txtfilewriter
+            ├── txtfilewriter
+            └── oraclewriter
 ```
 
 `plugin` 目录下保留 ODC 导数依赖的插件即可；
